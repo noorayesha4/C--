@@ -7,7 +7,7 @@ int main(){
     if (num%2==0){
         cout<<"Your num is even.";
     }
-    else if (num%2=!0){
+    else if (num%2!=0){
         cout<<"Your num is odd.";
     }
     else{

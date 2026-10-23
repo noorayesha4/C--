@@ -12,7 +12,7 @@ int main(){
         else if(age>=18&&marks>=50){
         cout<<"Congragulations! You are eligible.";}
         else{
-            cout<<"You are eligible.";
+            cout<<"You are not eligible.";
         }
         return 0;
     
