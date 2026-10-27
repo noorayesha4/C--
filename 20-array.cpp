@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 int sum(int array[],int size){
-    int sum=0;
+    int total=0;
     for(int i=0;i<size;i++){
-        sum += array[i];
+        total += array[i];
     }
-    return sum;
+    return total;
 
 }
 int main(){
