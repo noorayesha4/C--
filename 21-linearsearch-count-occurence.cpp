@@ -6,7 +6,7 @@ int main(){
         cout<<"Enter any number: ";
         cin>>target[i];}
         int num;
-        cout<<"Enter a  number to find: "<<endl;
+        cout<<"Enter a  number to find: ";
         cin>>num;
         bool found=false;
         int count=0;
