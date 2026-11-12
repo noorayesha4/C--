@@ -41,12 +41,13 @@ int main(){
         cin>>number[i];
     }
     //loop for printing the input
+    cout<<"Your array: ";
     for(int j=0;j<5;j++){
-        cout<<number[j]<<endl;
+        cout<<number[j]<<" ";
     }
     //print of sum 
     int Sum=sum(number,5);
-    cout<<"Your sum is: "<<Sum<<endl;
+    cout<<"\nYour sum is: "<<Sum<<endl;
     //print of largest number 
     int larg=largnum(number,5);
     cout<<"Your largest number is: "<<larg<<endl;
