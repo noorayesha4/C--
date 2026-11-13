@@ -4,26 +4,26 @@ using namespace std;
 
 int main(){
     // 1. used output object, escape sequences, manipulator
-    cout << "hello, I am Noir\t\"be a good\"\n this is sooo" << endl;
-    cout << "I want to become a good programmer\nI will" << endl;
+    cout << "hello, I am Noir" << endl;
+    cout << "I want to become a good programmer" << endl;
 
     // 2. used int data type
     int age = 19;
     int year = 2007;
-    cout << age << endl;
-    cout << year << endl;
+    cout <<"Age: "<< age << endl;
+    cout << "Year: "<<year << endl;
 
     // 3. used string, int datatypes
     string name1 = "noir";
-    cout << "my name is\t" << name1 << endl;
-    cout << "I born in\t" << year << endl;
-    cout << "I am \t" << age << endl;
+    cout << "my name is " << name1 << endl;
+    cout << "I born in " << year << endl;
+    cout << "I am " << age << endl;
 
     // 4. used string data type, input object
     string name2;
     cout << "what is your name? ";
     cin >> name2;
-    cout << "Hello!\t" << name2 << endl;
+    cout << "Hello! " << name2 << endl;
 
     // 5. used int, short, long ,char data types with 3 identifiers
     int a,b,c;
